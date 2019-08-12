@@ -1,0 +1,66 @@
+﻿@using System;
+@using System.Collections;
+@using System.Collections.Generic;
+@using TokenBasedReceptionApp.Helpers.Constant;
+
+@{
+    ViewBag.Title = "Reception";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.ActiveNav = NavigationTab.Reception;
+}
+<h2>Search</h2>
+<div class="row">
+    <div class="col-md-12">
+        @{Html.RenderAction("Search", "Patient");}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Search Result</h3>
+            </div>
+            <div class="panel-body search-result-container">
+                <div id="searchResultMessage"></div>
+                <div id="searchResultRecords"></div>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-md-6">
+            @{ Html.RenderAction("Create", "Patient");}
+        </div>*@
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h4>New Patient</h4>
+        @Html.ActionLink("Add Patient", "Create", "Patient")
+    </div>
+</div>
+@*<h2>Reception</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="jumbotron text-center">
+                <p><button id="newArrival" type="button" class="btn btn-primary btn-lg">New Arrival</button></p>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="well text-center actionOnToken-container ">
+                @{Html.RenderAction("GetActionOnToken", "Reception");}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Waiting List</h4>
+            <p class="waiting-list-container">
+
+            </p>
+        </div>
+    </div>*@
+
+@section scripts
+{
+    <script src="~/Scripts/app/reception-ctrl.js"></script>
+}

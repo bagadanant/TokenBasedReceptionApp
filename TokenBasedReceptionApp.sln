@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenBasedReceptionApp", "TokenBasedReceptionApp\TokenBasedReceptionApp.csproj", "{DC3676DB-2B0D-469D-9FF3-8BBFF83D3C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenBasedReception.Core", "TokenBasedReception.Core\TokenBasedReception.Core.csproj", "{01DA0471-0B02-464F-8DFC-F9019D6232FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenBasedReception.Data", "TokenBasedReception.Data\TokenBasedReception.Data.csproj", "{F59A9234-E2D9-4755-B1FA-735AE722117D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenBasedReception.Service", "TokenBasedReception.Service\TokenBasedReception.Service.csproj", "{EAC7737D-3DCF-4C07-949D-6007EB042C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenBasedReception.ViewModel", "TokenBasedReception.ViewModel\TokenBasedReception.ViewModel.csproj", "{1738C82F-0BEF-49FE-8826-53D528486C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC3676DB-2B0D-469D-9FF3-8BBFF83D3C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3676DB-2B0D-469D-9FF3-8BBFF83D3C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3676DB-2B0D-469D-9FF3-8BBFF83D3C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3676DB-2B0D-469D-9FF3-8BBFF83D3C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DA0471-0B02-464F-8DFC-F9019D6232FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DA0471-0B02-464F-8DFC-F9019D6232FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DA0471-0B02-464F-8DFC-F9019D6232FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DA0471-0B02-464F-8DFC-F9019D6232FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59A9234-E2D9-4755-B1FA-735AE722117D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59A9234-E2D9-4755-B1FA-735AE722117D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59A9234-E2D9-4755-B1FA-735AE722117D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59A9234-E2D9-4755-B1FA-735AE722117D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC7737D-3DCF-4C07-949D-6007EB042C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC7737D-3DCF-4C07-949D-6007EB042C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC7737D-3DCF-4C07-949D-6007EB042C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC7737D-3DCF-4C07-949D-6007EB042C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1738C82F-0BEF-49FE-8826-53D528486C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1738C82F-0BEF-49FE-8826-53D528486C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1738C82F-0BEF-49FE-8826-53D528486C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1738C82F-0BEF-49FE-8826-53D528486C08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

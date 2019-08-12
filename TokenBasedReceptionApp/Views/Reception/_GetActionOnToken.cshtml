@@ -1,0 +1,12 @@
+﻿@model TokenBasedReception.ViewModel.ActionTokenViewModel
+
+@*Display Current Token in action*@
+<div>
+    <h1>@Model.CurrentToken</h1>
+</div>
+
+@*Action to perform*@
+<div>
+    <button id="attendedAction" class="btn btn-success btn-lg">Attended</button>
+    <button id="unattendedAction" class="btn btn-default btn-lg">Unattened</button>
+</div>
