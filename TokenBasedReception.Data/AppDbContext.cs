@@ -12,7 +12,7 @@ namespace TokenBasedReception.Data
     {
         public AppDbContext() : base("TokenBasedReceptionApp")
         {
-            Database.SetInitializer(new AppDbInitializer());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<AppDbContext, Migrations.Configuration>());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

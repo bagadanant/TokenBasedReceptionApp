@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.cs" />
-    <Compile Include="AppDbInitializer.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="IStoredProc.cs" />
@@ -79,6 +78,10 @@
     <Compile Include="Migrations\201908120022066_With-Seeded-Data.cs" />
     <Compile Include="Migrations\201908120022066_With-Seeded-Data.Designer.cs">
       <DependentUpon>201908120022066_With-Seeded-Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908121749210_Seed-data.cs" />
+    <Compile Include="Migrations\201908121749210_Seed-data.Designer.cs">
+      <DependentUpon>201908121749210_Seed-data.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908120022066_With-Seeded-Data.resx">
       <DependentUpon>201908120022066_With-Seeded-Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908121749210_Seed-data.resx">
+      <DependentUpon>201908121749210_Seed-data.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
